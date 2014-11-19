@@ -20,7 +20,7 @@
 	a=e.createElement(s);n=e.getElementsByTagName(s)[0];
 	a.src='//www.google-analytics.com/analytics.js';
 	n.parentNode.insertBefore(a,n)}(window,document,'script','ga'));
-	ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+	//ga('create','UA-XXXXX-X','auto');ga('send','pageview');
 </script>
 <?php } ?>
 </body> 
