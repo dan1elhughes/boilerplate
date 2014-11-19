@@ -76,8 +76,11 @@ function thumb($src, $width) {
 		<!-- Opengraph social media integration -->
 		<meta property="og:image" content="<!--IMAGE-->"<?php $pageImage = "http://".$rooturl.$rootpath."images/logo.jpg";?>>
 		<meta property="og:title" content="<!--TITLE-->">
-		<meta property="og:description" content="<!--DESCRIPTION-->"<?php $pageDescription = 'Gravity Gym lorem ipsum dolor sit amet.';?>>
+		<meta property="og:description" content="<!--DESCRIPTION-->"<?php $pageDescription = 'Page description needs to be reset in header.';?>>
 		<meta property="og:url" content="<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";?>"/>
+		
+		<!-- Proof of authorship -->
+		<link rel="author" href="https://plus.google.com/+DanHughes0/"/>
 		
 		<title><!--TITLE--></title>
 	</head>
@@ -87,4 +90,4 @@ function thumb($src, $width) {
 			<div class='wrap'>
 			</div>
 		</header>
-	<div id="content">
+	<div id="content"> <!-- Begin page content -->
