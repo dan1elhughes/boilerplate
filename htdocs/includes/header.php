@@ -14,9 +14,9 @@ if ($devMode) {
 	$rootpath='/';
 }
 else {
-	$rooturl='PRODUCTION.URL.HERE.com';
+	$rooturl='workshop.xes.io';
 	$filepath=$_SERVER['DOCUMENT_ROOT'];
-	$rootpath='/';
+	$rootpath='/CHANGEME/';
 }
 
 //Start caching
@@ -57,7 +57,7 @@ function thumb($src, $width) {
 		<!-- Meta -->
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="author" content="Dan Hughes">
+		<meta name="author" content="Cross-eyed Scripting">
 		<meta name="description" content="<!--DESCRIPTION-->">
 
 		<!-- Javascript -->
