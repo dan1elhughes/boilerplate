@@ -1,2 +1,4 @@
 db.php
 *.timthumb.txt
+*.css
+*.css.imports
