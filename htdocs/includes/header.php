@@ -1,6 +1,7 @@
 <?php 
 
 $productionURL = 'workshop.xes.io'; //Your domain
+$fonts = array('Source+Sans+Pro', 'Lato');
 
 //If running on local machine, use devmode settings (don't cache, use local rather than CDN files)
 $devMode = ($_SERVER['HTTP_HOST'] != $productionURL);
@@ -73,7 +74,7 @@ function thumb($src, $width) {
 		<link rel="stylesheet" type="text/css" href="<?php echo externalFile('cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/', 'normalize.min.css');?>"/>
 		<link rel="stylesheet" type="text/css" href="<?php echo $stylesheet;?>"/>
 		<link rel="stylesheet" type="text/css" href="<?php echo externalFile('cdnjs.cloudflare.com/ajax/libs/', 'font-awesome/4.2.0/css/font-awesome.min.css');?>"/>
-		<?php $fonts = array('Open+Sans', 'Noto+Serif', 'Lato:300italic');?><link rel='stylesheet' type='text/css' href="//fonts.googleapis.com/css?family=<?php echo implode('|', $fonts); ?>"/>
+		<link rel='stylesheet' type='text/css' href="//fonts.googleapis.com/css?family=<?php echo implode('&#124;', $fonts); ?>"/>
 
 		<!-- Icons -->
 		<link rel="icon" type="image/png" href="<?php echo $rootpath;?>images/favicon.png" />
