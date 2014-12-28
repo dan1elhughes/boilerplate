@@ -16,6 +16,10 @@ $mobile-width:			400px;
 $phablet-width:			550px;
 $tablet-width:			750px;
 $desktop-width:			1000px;
+
+@import "functions";
+@import "grid";
+
 /* =====================================*/
 /*			GLOBALS						*/
 /* =====================================*/
