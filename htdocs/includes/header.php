@@ -15,9 +15,11 @@ $filepath = $_SERVER['DOCUMENT_ROOT'];
 
 if ($devMode) {
 	$rootpath='/';
+	$stylesheet=$rootpath.'includes/style.dev.php/style.scss?reset=1';
 }
 else {
 	$rootpath='/';
+	$stylesheet=$rootpath.'includes/style.php/style.scss';
 }
 
 //Start caching
