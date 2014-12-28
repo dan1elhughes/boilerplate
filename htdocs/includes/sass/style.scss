@@ -1,11 +1,3 @@
-@mixin transition($transition...) {
-    -webkit-transition: $transition;
-    -moz-transition: $transition;
-    -ms-transition: $transition;
-    -o-transition: $transition;
-    transition: $transition;
-}
-
 $feature-color:			rgba(65, 183, 216, 1);
 $body-text-color:		rgba(25, 25, 25, 1);
 $hcontrast-text-color:	rgba(255, 255, 255, 1);
