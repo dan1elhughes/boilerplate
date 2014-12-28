@@ -18,7 +18,7 @@ if ($devMode) {
 	$stylesheet=$rootpath.'includes/style.dev.php/style.scss?reset=1';
 }
 else {
-	$rootpath='/';
+	$rootpath='/boilerplate/';
 	$stylesheet=$rootpath.'includes/style.php/style.scss';
 }
 
