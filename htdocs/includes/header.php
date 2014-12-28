@@ -10,15 +10,14 @@ error_reporting(-1);
 ini_set('display_errors', 'On');
 
 //Change URLs depending on whether server is development or production
+$rooturl = $_SERVER['HTTP_HOST'];
+$filepath = $_SERVER['DOCUMENT_ROOT'];
+
 if ($devMode) {
-	$rooturl='localhost';
-	$filepath=$_SERVER['DOCUMENT_ROOT'];
 	$rootpath='/';
 }
 else {
-	$rooturl='workshop.xes.io';
-	$filepath=$_SERVER['DOCUMENT_ROOT'];
-	$rootpath='/CHANGEME/';
+	$rootpath='/';
 }
 
 //Start caching
