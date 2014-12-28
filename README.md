@@ -15,7 +15,7 @@ It's designed to quick-start a new project or client website, without having to 
   - [Font Awesome](https://fortawesome.github.io/Font-Awesome/)
 - TimThumb enclosed within a simple 'thumb()' function
 - Many CSS helper classes for floating, wrapping, sizing and more
-- Responside grid based on [Skeleton](https://github.com/dhg/Skeleton)
+- Responsive grid based on [Skeleton](https://github.com/dhg/Skeleton)
 - Easy to use Google Fonts from a PHP array
 - OpenGraph social media integration
 - LiveReload and Google Analytics snippets built in
