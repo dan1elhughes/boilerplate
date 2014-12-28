@@ -1,8 +1,9 @@
-</div> <!-- End page content -->
-<footer>
-	<div class='wrap'>
-	</div>
-</footer>
+		</div> <!-- End page content -->
+	<footer>
+		<div class='wrap'>
+		</div>
+	</footer>
+</div>
 
 <!-- Developer-defined javascript & jQuery -->
 <script src="<?php echo $rootpath;?>includes/scripts.js"></script>
