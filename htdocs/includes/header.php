@@ -71,7 +71,7 @@ function thumb($src, $width) {
 
 		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="<?php echo externalFile('cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/', 'normalize.min.css');?>"/>
-		<link rel="stylesheet" type="text/css" href="<?php echo $rootpath;?>includes/style.css"/>
+		<link rel="stylesheet" type="text/css" href="<?php echo $stylesheet;?>"/>
 		<link rel="stylesheet" type="text/css" href="<?php echo externalFile('cdnjs.cloudflare.com/ajax/libs/', 'font-awesome/4.2.0/css/font-awesome.min.css');?>"/>
 		<?php $fonts = array('Open+Sans', 'Noto+Serif', 'Lato:300italic');?><link rel='stylesheet' type='text/css' href="//fonts.googleapis.com/css?family=<?php echo implode('|', $fonts); ?>"/>
 
