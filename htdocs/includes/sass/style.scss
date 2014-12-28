@@ -31,6 +31,16 @@ $site-width:			1140px;
 	box-sizing: border-box;
 }
 
+body, html {
+	height: 100%;
+	font-family: $body-font;
+}
+
+h1, h2, h3 {
+	font-family: $feature-font;
+	font-weight: normal;
+}
+
 a {
 	color: inherit;
 	text-decoration: none;
