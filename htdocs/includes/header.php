@@ -1,7 +1,9 @@
 <?php 
 
+$productionURL = 'xes.io'; //Your domain
+
 //If running on local machine, use devmode settings (don't cache, use local rather than CDN files)
-$devMode = ($_SERVER['HTTP_HOST'] == 'localhost' ? true : false);
+$devMode = ($_SERVER['HTTP_HOST'] != $productionURL);
 
 //Display all errors and warnings
 error_reporting(-1);
