@@ -1,7 +1,9 @@
 #XES Boilerplate
+
 ##Overview
 XES Boilerplate is a collection of tools combined with a rough CSS framework that has grown up over time.
 It's designed to quick-start a new project or client website, without having to rewrite common code.
+
 ##Features
 - Git integration - POST to '/git/' to pull the latest version
 - SCSSPHP for Sass without needing to self-compile
@@ -17,5 +19,6 @@ It's designed to quick-start a new project or client website, without having to 
 - OpenGraph social media integration
 - LiveReload and Google Analytics snippets built in
 - Variable URLs to allow installation to a subdirectory
+
 ##Demo
 http://workshop.xes.io/boilerplate
