@@ -83,10 +83,19 @@ form input.error, form textarea.error {
 	background-color: $error-bg;
 }
 
+form input, form textarea {
+	width: 100%;
+}
+
 form textarea {
 	height: 200px;
 	max-width: 100%;
 }
+
+form button {
+	margin-top: 2em;
+}
+
 /* =====================================*/
 /*			EXTRAS						*/
 /*	 If there's lots, we'll add category*/
