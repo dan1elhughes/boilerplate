@@ -22,7 +22,7 @@
 	overflow: auto;
 }
 
-/* For devices larger than 400px */
+/* For devices larger than $mobile-width */
 @media (min-width: $mobile-width) {
 	.wrap {
 		width: 85%;
@@ -30,7 +30,7 @@
 	}
 }
 
-/* For devices larger than 550px */
+/* For devices larger than $phablet-width */
 @media (min-width: $phablet-width) {
 	.wrap {
 		width: 80%;
