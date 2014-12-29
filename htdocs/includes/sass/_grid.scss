@@ -96,5 +96,10 @@
 
 	.offset-by-one-half.column,
 	.offset-by-one-half.columns     { margin-left: 52%; }
+}
 
+.wrap:after, .row:after {
+	content: "";
+	display: table;
+	clear: both;
 }
