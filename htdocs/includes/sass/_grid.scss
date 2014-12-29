@@ -18,10 +18,6 @@
 	box-sizing: border-box;
 }
 
-.row {
-	overflow: auto;
-}
-
 /* For devices larger than $mobile-width */
 @media (min-width: $mobile-width) {
 	.wrap {
