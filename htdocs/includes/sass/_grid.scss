@@ -1,7 +1,7 @@
 /* =====================================*/
 /*			GRID						*/
 /* =====================================*/
-.container {
+.wrap {
 	width: 100%; 
 	max-width: $site-width;
 	margin: 0 auto; 
@@ -24,7 +24,7 @@
 
 /* For devices larger than 400px */
 @media (min-width: $mobile-width) {
-	.container {
+	.wrap {
 		width: 85%;
 		padding: 0;
 	}
@@ -32,7 +32,7 @@
 
 /* For devices larger than 550px */
 @media (min-width: $phablet-width) {
-	.container {
+	.wrap {
 		width: 80%;
 	}
 	

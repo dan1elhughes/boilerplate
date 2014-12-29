@@ -99,21 +99,6 @@ h1, h2, h3 {
 	background-color: $contrast-bg;
 }
 
-.wrap {
-	max-width: $site-width; /* Maximum width so page doesn't stretch to huge sizes */
-	padding: 1em 0; /* Add vertical space in between items */
-	margin: 0 auto; /* Automatically centre the blocks in the page */
-	overflow: auto; /* Expand containers rather than scrollbars */
-	
-	@include transition(padding 0.25s);
-}
-
-@media only screen and (max-width: $site-width) {
-	.wrap {
-		padding: 1em;
-	}
-}
-
 .button {
 	background-color: $feature-color;
 	padding: 1em;
