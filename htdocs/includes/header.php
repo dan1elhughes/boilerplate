@@ -103,8 +103,8 @@ function thumb($src, $width) {
 					</div>
 					<div class="row align-center">
 						<div class="twelve columns align-center fontsize-small">
-							<p">A collection of front and back-end tools and optimisations to reduce project start time.</p>
 							<p">XES Boilerplate, made with love by <a href="https://xes.io">XES</a>.</p>
+							<p>A collection of front and back-end tools and optimisations to reduce project start time. Intended as a starting point, not a complete framework.</p>
 						</div>
 					</div>
 					<div class="row align-center">
