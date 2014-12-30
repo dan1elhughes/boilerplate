@@ -46,3 +46,8 @@ label > .label-body {
 	margin-left: 0.5em;
 	font-weight: normal;
 }
+
+form .error {
+	border: 1px solid $error-text-color;
+	background-color: $error-bg;
+}

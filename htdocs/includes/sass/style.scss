@@ -97,16 +97,6 @@ h1, h2, h3 {
 /*			FORMS						*/
 /* =====================================*/
 
-form input, form textarea {
-	width: 100%;
-	margin-bottom: 1em;
-}
-
-form .error {
-	border: 1px solid $error-text-color;
-	background-color: $error-bg;
-}
-
 /* =====================================*/
 /*			EXTRAS						*/
 /*	 If there's lots, we'll add category*/
