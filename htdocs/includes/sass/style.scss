@@ -121,6 +121,11 @@ form input.error, form textarea.error {
 	background-color: $contrast-bg;
 }
 
+.block.hcontrast {
+	background-color: $hcontrast-bg;
+	color: $hcontrast-text-color;
+}
+
 .button {
 	background-color: $feature-color;
 	padding: 1em;
