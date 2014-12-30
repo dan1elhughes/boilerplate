@@ -96,10 +96,13 @@ function thumb($src, $width) {
 			<!--[if IE]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
 			<header class="block border-bottom">
 				<div class='wrap'>
-					<div class="row">
-						<div class="ten columns align-center">
-							<h1 class="fontsize-large no-margin">XES Boilerplate</h1>
+					<div class="row align-center">
+						<div class="twelve columns">
+							<h1 class="fontsize-large">XES Boilerplate</h1>
 						</div>
+					</div>
+					<div class="row align-center">
+						<a class="fontsize-huge faint twelve columns" href="https://github.com/dan1elhughes/boilerplate.git"><i class="fa fa-github"></i></a>
 					</div>
 				</div>
 			</header>
