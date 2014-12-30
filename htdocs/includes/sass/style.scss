@@ -155,7 +155,11 @@ form .error {
 
 .float-left { float: left; }
 .float-right { float: right; }
-.float-clear { clear: both; }
+.float-container:after { clear: both; }
+.float-container:before, .float-container:after {
+	content: " ";
+	display: table;
+}
 
 .align-left { text-align: left; }
 .align-right { text-align: right; }
