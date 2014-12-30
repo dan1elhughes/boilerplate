@@ -1,3 +1,7 @@
+pre {
+	margin-top: 0;
+}
+
 code {
 	padding: 0.2em 0.5em;
 	margin: 0 0.2em;
@@ -7,6 +11,7 @@ code {
 	border: 1px solid $darker-bg;
 	border-radius: $curve-radius;
 }
+
 pre > code {
 	display: block;
 	padding: 1em 1.5em;
