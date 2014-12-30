@@ -158,7 +158,7 @@ $feature-font: Raleway, sans-serif;</code></pre></p>
 	</section>
 
 	<section>
-		<h2>OpenGraph integration</h2>
+		<h2>Basic <a href="//ogp.me">OpenGraph</a> integration</h2>
 	</section>
 
 	<section>
