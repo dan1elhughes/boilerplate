@@ -102,7 +102,7 @@ form input, form textarea {
 	margin-bottom: 1em;
 }
 
-form input.error, form textarea.error {
+form .error {
 	border: 1px solid $error-text-color;
 	background-color: $error-bg;
 }
