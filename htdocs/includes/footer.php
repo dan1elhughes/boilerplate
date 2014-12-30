@@ -1,7 +1,11 @@
 		</div> <!-- End page content -->
 	<footer class="block hcontrast">
 		<div class='wrap'>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mollis libero at diam volutpat, ac placerat nisi euismod. Suspendisse vestibulum a nisl eget ultrices. Donec interdum quam vel lacinia faucibus. Sed quis arcu varius, elementum neque vitae, dictum urna. Ut et ante gravida, feugiat diam a, laoreet libero. Pellentesque eleifend purus sit amet nisl porta hendrerit. Sed metus est, gravida sed gravida a, sollicitudin a erat.</p>
+			<div class="row">
+				<div class="twelve columns align-center">
+					<a class="fontsize-huge faint twelve columns" href="https://github.com/dan1elhughes/boilerplate.git"><i class="fa fa-github"></i></a>
+				</div>
+			</div>
 		</div>
 	</footer>
 </div>
