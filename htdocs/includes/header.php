@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 $productionURL = 'workshop.xes.io'; //Your domain
 $fonts = array('Source+Sans+Pro', 'Lato');
@@ -36,7 +36,7 @@ if (!$devMode) {
 	}
 }
 ob_start(); //Start storing HTML rather than outputting directly, allows to replace title and description
-	
+
 //externalFile returns the local copy of a file, or the CDN copy if production
 function externalFile($url, $file) {
 	global $rootpath, $devMode;
@@ -85,10 +85,10 @@ function thumb($src, $width) {
 		<meta property="og:title" content="<!--TITLE-->">
 		<meta property="og:description" content="<!--DESCRIPTION-->"<?php $pageDescription = 'Page description needs to be reset in header.';?>>
 		<meta property="og:url" content="<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";?>"/>
-		
+
 		<!-- Proof of authorship -->
 		<link rel="author" href="https://plus.google.com/+DanHughes0/"/>
-		
+
 		<title><!--TITLE--></title>
 	</head>
 	<body>
@@ -97,7 +97,7 @@ function thumb($src, $width) {
 			<header class="block border-bottom">
 				<div class='wrap'>
 					<div class="row">
-						<div class="twelve columns align-center">
+						<div class="ten columns align-center">
 							<h1 class="fontsize-large no-margin">XES Boilerplate</h1>
 						</div>
 					</div>
