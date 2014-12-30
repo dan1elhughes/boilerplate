@@ -70,4 +70,38 @@
 		</pre>
 	</div>
 </div>
+<div class="wrap">
+	<h2>Tables</h2>
+	<div class="row">
+		<table class="twelve columns">
+			<thead>
+				<tr>
+					<th>City</th>
+					<th>Postcode</th>
+					<th>County</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Berlin</td>
+					<td>12209</td>
+					<td>Germany</td>
+				</tr>
+				<tr>
+					<td>London</td>
+					<td>WA1 1DP</td>
+					<td>United Kingdom</td>
+				</tr>
+				<tr>
+					<td>Strasbourg</td>
+					<td>67000</td>
+					<td>France</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<div class="wrap">
+	<h2>Utility classes</h2>
+</div>
 <?php include "./includes/footer.php"; ?>
