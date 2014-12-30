@@ -114,5 +114,23 @@
 			<li><code>.border-bottom</code> for a quick line underneath an element</li>
 		</ul>
 	</section>
+	
+	<section>
+		<h2>Easy modification</h2>
+		<div class="row">
+			<div class="four columns">
+				<p>Changing the boilerplate settings is as easy as changing PHP and Sass variables.</p>
+				<p>For example, take fonts; just change a PHP array and the corresponding Sass variables to change the Google Fonts being loaded.</p>
+			</div>
+			<div class="four columns">
+				<h3>PHP</h3>
+				<p><pre><code>$fonts = array('Oxygen', 'Raleway');</code></pre></p>
+			</div>
+			<div class="four columns">
+				<h3>Sass</h3>
+				<p><pre><code>$body-font: Oxygen, sans-serif;
+$feature-font: Raleway, sans-serif;</code></pre></p>
+			</div>
+	</section>
 </article>
 <?php include "./includes/footer.php"; ?>
