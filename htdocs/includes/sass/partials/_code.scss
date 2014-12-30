@@ -1,0 +1,14 @@
+code {
+	padding: 0.2em 0.5em;
+	margin: 0 0.2em;
+	font-size: 75%;
+	white-space: nowrap;
+	background: rgba($darker-bg, 0.05);
+	border: 1px solid $darker-bg;
+	border-radius: $curve-radius;
+}
+pre > code {
+	display: block;
+	padding: 1em 1.5em;
+	white-space: pre;
+}

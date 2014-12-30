@@ -50,4 +50,23 @@
 		</div>
 	</form>
 </div>
+<div class="wrap">
+	<h2>Code</h2>
+	<div class="row">
+		<pre class="six columns">
+			<code>.fontsize-tiny { font-size: 12px }
+.fontsize-small { font-size: 14px }
+.fontsize-normal { font-size: 16px }
+.fontsize-large { font-size: 21px }
+.fontsize-xlarge { font-size: 28px }
+.fontsize-huge { font-size: 37px }
+.fontsize-xhuge { font-size: 50px }</code>
+		</pre>
+		<pre class="six columns">
+			<code>.align-left { text-align: left; }
+.align-right { text-align: right; }
+.align-center { text-align: center; }</code>
+		</pre>
+	</div>
+</div>
 <?php include "./includes/footer.php"; ?>
