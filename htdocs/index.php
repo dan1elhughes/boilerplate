@@ -103,5 +103,15 @@
 </div>
 <div class="wrap">
 	<h2>Utility classes</h2>
+	<ul>
+		<li><code>.fontsize-tiny</code> to <code>.fontsize-xhuge</code> sets font sizing from 12px to 50px</li>
+		<li><code>.block</code> for a full width colour band, with optional <code>.hcontrast</code> for a contrasting dark band with light text</li>
+		<li><a href="nicolasgallagher.com/micro-clearfix-hack/">Clearfix</a> contained within <code>.float-container</code>, which holds <code>.float-left</code> and <code>.float-right</code></li>
+		<li>Weighting modifiers <code>.faint</code> and <code>.bold</code> for text</li>
+		<li>Capitalisation modifiers <code>.uppercase</code> and <code>.lowercase</code></li>
+		<li><code>.align-left</code>, <code>.align-right</code> and <code>.align-center</code> for aligning text</li>
+		<li><code>.pad-top</code>, <code>.pad-bottom</code> and <code>.no-margin</code> to help with spacing</li>
+		<li><code>.border-bottom</code> for a quick line underneath an element</li>
+	</ul>
 </div>
 <?php include "./includes/footer.php"; ?>
