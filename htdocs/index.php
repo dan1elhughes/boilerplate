@@ -154,7 +154,7 @@ $feature-font: Raleway, sans-serif;</code></pre></p>
 	</section>
 
 	<section>
-		<h2>Responsive grid based on <a href="//github.com/dhg/Skeleton/">Skeleton</h2>
+		<h2>Responsive grid based on <a href="//github.com/dhg/Skeleton/">Skeleton</a></h2>
 	</section>
 
 	<section>
