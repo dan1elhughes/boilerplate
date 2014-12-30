@@ -3,11 +3,11 @@
 	<h2>Forms</h2>
 	<form action="#" method="post">
 		<div class="row">
-			<div class="six columns">
+			<div class="four columns">
 				<label for="name">Name</label> 
 				<input type="name" id="name" name="name">
 			</div>
-			<div class="six columns">
+			<div class="eight columns">
 				<label for="email">Email</label>
 				<input type="text" id="email" name="email">
 			</div>
