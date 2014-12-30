@@ -4,6 +4,10 @@ th, td {
 	border-bottom: 1px solid #E1E1E1;
 }
 
+th {
+	border-bottom: 1px solid $darker-bg;
+}
+
 th:first-child, td:first-child {
 	padding-left: 0;
 }
