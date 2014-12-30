@@ -98,7 +98,7 @@ function thumb($src, $width) {
 				<div class='wrap'>
 					<div class="row align-center">
 						<div class="twelve columns">
-							<h1 class="fontsize-large">XES Boilerplate</h1>
+							<h1 class="fontsize-xlarge">XES Boilerplate</h1>
 						</div>
 					</div>
 					<div class="row align-center">
