@@ -1,7 +1,7 @@
 <?php
 
 $productionURL = 'workshop.xes.io'; //Your domain
-$fonts = array('Source+Sans+Pro', 'Lato');
+$fonts = array('Raleway', 'Source+Sans+Pro');
 
 //If running on local machine, use devmode settings (don't cache, use local rather than CDN files)
 $devMode = ($_SERVER['HTTP_HOST'] != $productionURL);
