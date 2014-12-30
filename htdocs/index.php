@@ -1,6 +1,6 @@
 <?php include "./includes/header.php"; ?>
 <div class="block">
-	<div class="container align-center">
+	<div class="wrap align-center">
 		<div class="row">
 			<h1 class="fontsize-huge twelve columns">Success!</h1>
 		</div>	
