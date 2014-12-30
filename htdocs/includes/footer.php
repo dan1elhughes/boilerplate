@@ -3,7 +3,7 @@
 		<div class='wrap'>
 			<div class="row">
 				<div class="twelve columns align-center">
-					<a class="fontsize-huge faint twelve columns" href="https://github.com/dan1elhughes/boilerplate.git"><i class="fa fa-github"></i></a>
+					<a class="fontsize-huge twelve columns" href="https://github.com/dan1elhughes/boilerplate.git"><i class="fa fa-github"></i></a>
 				</div>
 			</div>
 		</div>
