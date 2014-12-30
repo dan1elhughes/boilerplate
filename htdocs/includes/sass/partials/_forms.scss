@@ -8,8 +8,6 @@ input, textarea, select {
 	box-sizing: border-box;
 	width: 100%;
 	font-family: $body-font;
-	
-	@include transition(border-color 0.25s);
 }
 
 input, textarea {
