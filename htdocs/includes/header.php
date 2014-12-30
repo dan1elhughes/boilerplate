@@ -94,7 +94,7 @@ function thumb($src, $width) {
 	<body>
 		<div class="float-container site-container">
 			<!--[if IE]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
-			<header class="block border-bottom">
+			<header class="block hcontrast border-bottom">
 				<div class='wrap'>
 					<div class="row align-center">
 						<div class="twelve columns">
