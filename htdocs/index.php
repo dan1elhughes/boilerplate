@@ -1,7 +1,7 @@
 <?php include "./includes/header.php"; ?>
 <div class="wrap">
 	<h2>Forms</h2>
-	<form action="send.php" method="post">
+	<form action="#" method="post">
 		<div class="row">
 			<div class="six columns">
 				<label for="name">Name</label> 
