@@ -8,31 +8,25 @@
 	border: 1px solid $darker-bg;
 	cursor: pointer;
 	box-sizing: border-box;
+	
+	@include transition(border 0.25s);
 }
 
 .button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover,
 .button:focus, button:focus, input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus {
-	color: #333;
 	border: 1px solid $feature-color;
 	outline: 0;
 }
 
-.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
-	color: #FFF;
+.button-primary {
+	color: white;
 	background-color: $feature-color;
-	border-color: $feature-color;
+	border: 1px solid $feature-color;
+	
+	@include transition(color 0.25s, background-color 0.25s);
 }
 
-.button.button-primary:hover,
-button.button-primary:hover,
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover,
-.button.button-primary:focus,
-button.button-primary:focus,
-input[type="submit"].button-primary:focus,
-input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus {
-  color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+.button-primary:hover, .button-primary:focus {
+	color: $feature-color;
+	background-color: $body-bg;
+}
