@@ -138,21 +138,6 @@ form .error {
 	color: $hcontrast-text-color;
 }
 
-.button {
-	background-color: $feature-color;
-	padding: 1em;
-	border-radius: 0.5em;
-	color: $hcontrast-text-color;
-	border: 1px solid $feature-color;
-
-	@include transition(background-color 0.25s, color 0.25s)
-}
-
-.button:hover {
-	background-color: $hcontrast-text-color;
-	color: $feature-color;
-}
-
 .float-left { float: left; }
 .float-right { float: right; }
 .float-container:after { clear: both; }
