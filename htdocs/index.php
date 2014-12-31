@@ -149,7 +149,7 @@ $feature-font: Raleway, sans-serif;</code></pre></p>
 			</div>
 	</section>
 	
-	<section>
+	<!--<section>
 		<h2>Git integration</h2>
 	</section>
 
@@ -179,7 +179,7 @@ $feature-font: Raleway, sans-serif;</code></pre></p>
 
 	<section>
 		<h2><a href="//livereload.com">LiveReload</a> built in</h2>
-	</section>
+	</section>-->
 
 </article>
 <?php include "./includes/footer.php"; ?>
