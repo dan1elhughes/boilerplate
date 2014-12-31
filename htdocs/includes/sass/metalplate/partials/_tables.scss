@@ -1,18 +1,18 @@
-th, td {
+table {
+	border-radius: $curve-radius;
+}
+
+td {
 	padding: 1em;
-	text-align: left;
-	border-bottom: 1px solid #E1E1E1;
 }
 
 th {
 	border-bottom: 1px solid $darker-bg;
+	padding: 1.5em;
+	text-align: center;
+	background-color: $body-bg;
 }
 
-th:first-child, td:first-child {
-	padding-left: 0;
-}
-
-th:last-child,
-td:last-child {
-	padding-right: 0;
+tr:nth-child(odd) {
+	background-color: $slight-darker-bg;
 }
