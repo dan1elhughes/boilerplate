@@ -16,6 +16,19 @@ $fonts = array('Muli', 'Raleway');</code></pre>
 			</div>
 		</div>
 	</section>
+
+	<section>
+		<h2>Built-in Sass compilers</h2>
+		<div class="row">
+			<div class="six columns">
+				<p>With the power of Sass, it's easy to customise Metalplate to match your style. By modifying a handful of variables it's possible to change everything from colours to breakpoints.</p>
+			</div>
+			<div class="six columns">
+				<p>By compiling in PHP, you don't need to worry about installing any compilers of your own. By default, a development environment gets an uncompressed output while production gets all the whitespace stripped. Metalplate has it covered.</p>
+			</div>
+		</div>
+	</section>
+
 	<section>
 		<h2>Forms</h2>
 		<form action="#" method="post">
