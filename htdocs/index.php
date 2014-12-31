@@ -16,6 +16,51 @@ $fonts = array('Muli', 'Raleway');</code></pre>
 			</div>
 		</div>
 	</section>
+
+	<section>
+		<h2>Built-in Sass compilers</h2>
+		<div class="row">
+			<div class="six columns">
+				<p>With the power of Sass, it's easy to customise Metalplate to match your style. By modifying a handful of variables it's possible to change everything from colours to breakpoints.</p>
+			</div>
+			<div class="six columns">
+				<p>By compiling in PHP, you don't need to worry about installing any compilers of your own. By default, a development environment gets an uncompressed output while production gets all the whitespace stripped. Metalplate has it covered.</p>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="row">
+			<div class="six columns">
+				<h2>Git integration</h2>
+				<p>If you keep your project in Git, you can point a post-receive hook on your central repository at <code>yourdomain.com/git/</code>. Whenever you hit that URL, the latest version of the master branch will be pulled to the server.</p>
+			</div>
+			<div class="six columns">
+				<h2>Server-side caching</h2>
+				<p>By default, all pages are cached and served from cache automatically. To disable on confidential pages, set <code>$disableCache = true</code> on that page.</p>
+			</div>
+		</div>
+	</section>
+
+	<!--<section>
+		<h2>CDN libraries with local fallbacks</h2>
+	</section>
+
+	<section>
+		<h2>Server-side image compression</h2>
+	</section>
+
+	<section>
+		<h2>Responsive grid based on <a href="//github.com/dhg/Skeleton/">Skeleton</a></h2>
+	</section>
+
+	<section>
+		<h2>Basic <a href="//ogp.me">OpenGraph</a> integration</h2>
+	</section>
+
+	<section>
+		<h2><a href="//livereload.com">LiveReload</a> built in</h2>
+	</section>-->
 	<section>
 		<h2>Forms</h2>
 		<form action="#" method="post">
@@ -148,38 +193,5 @@ $fonts = array('Muli', 'Raleway');</code></pre>
 $feature-font: Raleway, sans-serif;</code></pre></p>
 			</div>
 	</section>
-	
-	<!--<section>
-		<h2>Git integration</h2>
-	</section>
-
-	<section>
-		<h2>Built-in Sass compilers</h2>
-	</section>
-
-	<section>
-		<h2>Server-side caching</h2>
-	</section>
-
-	<section>
-		<h2>CDN libraries with local fallbacks</h2>
-	</section>
-
-	<section>
-		<h2>Server-side image compression</h2>
-	</section>
-
-	<section>
-		<h2>Responsive grid based on <a href="//github.com/dhg/Skeleton/">Skeleton</a></h2>
-	</section>
-
-	<section>
-		<h2>Basic <a href="//ogp.me">OpenGraph</a> integration</h2>
-	</section>
-
-	<section>
-		<h2><a href="//livereload.com">LiveReload</a> built in</h2>
-	</section>-->
-
 </article>
 <?php include "./includes/footer.php"; ?>
