@@ -37,7 +37,7 @@ $fonts = array('Muli', 'Raleway');</code></pre>
 			</div>
 			<div class="six columns">
 				<h2>Server-side caching</h2>
-				<p>By default, all pages are cached and served from cache automatically. To disable on confidential pages, set <code>$disableCache = true</code> on that page.</p>
+				<p>By default, all pages are cached and served from cache automatically. To disable on confidential pages, set <code>$disableCache = true</code> on that page. Caching is always disabled in development environments.</p>
 			</div>
 		</div>
 	</section>
