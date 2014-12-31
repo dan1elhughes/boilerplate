@@ -13,11 +13,12 @@
 	text-transform: uppercase;
 	font-size: 75%;
 	
-	@include transition(border 0.25s);
+	@include transition(color 0.25s, border 0.25s);
 }
 
 .button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover,
 .button:focus, button:focus, input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus {
+	color: $darker-bg;
 	border: 1px solid $feature-color;
 	outline: 0;
 }
