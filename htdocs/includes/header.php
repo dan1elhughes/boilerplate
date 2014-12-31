@@ -109,7 +109,7 @@ function thumb($src, $width) {
 						</div>
 					</div>
 					<div class="row align-center">
-						<a class="fontsize-huge twelve columns" href="https://github.com/dan1elhughes/boilerplate.git"><i class="fa fa-github"></i></a>
+						<a class="fontsize-huge twelve columns" href="https://github.com/dan1elhughes/metalplate"><i class="fa fa-github"></i></a>
 					</div>
 				</div>
 			</header>

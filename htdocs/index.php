@@ -37,30 +37,57 @@ $fonts = array('Muli', 'Raleway');</code></pre>
 			</div>
 			<div class="six columns">
 				<h2>Server-side caching</h2>
-				<p>By default, all pages are cached and served from cache automatically. To disable on confidential pages, set <code>$disableCache = true</code> on that page.</p>
+				<p>By default, all pages are cached and served from cache automatically. To disable on confidential pages, set <code>$disableCache = true</code> on that page. Caching is always disabled in development environments.</p>
 			</div>
 		</div>
 	</section>
 
-	<!--<section>
-		<h2>CDN libraries with local fallbacks</h2>
-	</section>
-
 	<section>
 		<h2>Server-side image compression</h2>
+		<div class="row">
+			<div class="six columns">
+				<p>Metalplate includes <a href="http://www.binarymoon.co.uk/projects/timthumb/">TimThumb</a> to automate image compression. This means any size of image can be uploaded (within PHP memory limits) and displayed at a reasonable size on page load. This functionality is wrapped in a PHP function for ease of use.</p>
+			</div>
+			<div class="six columns">
+				<pre><code>&lt;?php echo thumb('image.jpg', 300)?&gt;
+<i>//300 = width of image in pixels</i></code></pre>
+			</div>
+		</div>
 	</section>
 
 	<section>
-		<h2>Responsive grid based on <a href="//github.com/dhg/Skeleton/">Skeleton</a></h2>
+		<div class="row">
+			<div class="six columns">
+				<h2><a href="//livereload.com">LiveReload</a> built in</h2>
+				<p>Automatically included in development environments only, LiveReload is a tool that watches a project folder for changes and reloads the page when needed. To use, just install the application - the relevant JavaScript is included in Metalplate already.</p>
+			</div>
+			<div class="six columns">
+				<h2>CDN libraries with local fallbacks</h2>
+				<p>Save the file into <code>includes/external</code> to automatically pick up the files from CDN or the local copy depending on if you're in a production or development environment.</p>
+				<p>To reference jQuery Mobile for example, use:
+				<pre><code>&lt;?php echo externalFile('ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/', 'jquery.mobile.min.js')</code></pre></p>
+				<p>Metalplate comes with <a href="//fortawesome.github.io/Font-Awesome/">Font Awesome</a>, <a href="//jquery.com">jQuery</a>, <a href="//modernizr.com/">Modernizr</a> and <a href="//necolas.github.io/normalize.css/">Normalize.css</a>.</p>
+			</div>
+		</div>
 	</section>
-
+	
 	<section>
-		<h2>Basic <a href="//ogp.me">OpenGraph</a> integration</h2>
+		<div class="row">
+			<div class="six columns">
+				<h2>Responsive grid based on <a href="//github.com/dhg/Skeleton/">Skeleton</a></h2>
+				<p>Metalplate comes with a modified version of Skeleton, which is a base boilerplate responsive grid. The standard Skeleton installation has been split into multiple partials for ease of updating and modification.</p>
+				<p>Many additional styles have been added, such as Sass mixins, utility classes and variables for easy customisation.</p>
+			</div>
+			<div class="six columns">
+				<h2><a href="//ogp.me">OpenGraph</a> integration</h2>
+				<p>OpenGraph is a way to tell social networks more about your website. To use OpenGraph, there are PHP variables built-in to insert OpenGraph meta tags. Giving a page title results in the title being appended to the site name, separated by a <code>|</code>.</p>
+				<pre><code>$pageTitle = 'Latest News';
+$pageImage = 'news.jpg';
+$pageDescription = 'The latest from an awesome project';</code></pre>
+			</div>
+		</div>
 	</section>
-
-	<section>
-		<h2><a href="//livereload.com">LiveReload</a> built in</h2>
-	</section>-->
+	
 	<section>
 		<h2>Forms</h2>
 		<form action="#" method="post">
