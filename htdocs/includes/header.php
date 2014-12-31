@@ -99,13 +99,13 @@ function thumb($src, $width) {
 				<div class='wrap'>
 					<div class="row align-center">
 						<div class="twelve columns">
-							<h1 class="fontsize-xlarge">XES Boilerplate</h1>
+							<h1 class="fontsize-xlarge">Metalplate</h1>
 						</div>
 					</div>
 					<div class="row align-center">
 						<div class="six columns offset-by-three align-center fontsize-small">
-							<p>A collection of front and back-end tools and optimisations to reduce project start time. Intended as a starting point, not a complete framework.</p>
-							<p>XES Boilerplate, made with love by <a href="//xes.io">XES</a>.</p>
+							<p>A collection of front-end utilities and back-end tools to reduce project start time.</p>
+							<p>Metalplate, made with love by <a href="//xes.io">XES</a>.</p>
 						</div>
 					</div>
 					<div class="row align-center">
