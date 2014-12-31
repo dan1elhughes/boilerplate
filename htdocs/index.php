@@ -41,6 +41,27 @@ $fonts = array('Muli', 'Raleway');</code></pre>
 			</div>
 		</div>
 	</section>
+
+	<!--<section>
+		<h2>CDN libraries with local fallbacks</h2>
+	</section>
+
+	<section>
+		<h2>Server-side image compression</h2>
+	</section>
+
+	<section>
+		<h2>Responsive grid based on <a href="//github.com/dhg/Skeleton/">Skeleton</a></h2>
+	</section>
+
+	<section>
+		<h2>Basic <a href="//ogp.me">OpenGraph</a> integration</h2>
+	</section>
+
+	<section>
+		<h2><a href="//livereload.com">LiveReload</a> built in</h2>
+	</section>-->
+	<section>
 		<h2>Forms</h2>
 		<form action="#" method="post">
 			<div class="row">
@@ -172,38 +193,5 @@ $fonts = array('Muli', 'Raleway');</code></pre>
 $feature-font: Raleway, sans-serif;</code></pre></p>
 			</div>
 	</section>
-	
-	<!--<section>
-		<h2>Git integration</h2>
-	</section>
-
-	<section>
-		<h2>Built-in Sass compilers</h2>
-	</section>
-
-	<section>
-		<h2>Server-side caching</h2>
-	</section>
-
-	<section>
-		<h2>CDN libraries with local fallbacks</h2>
-	</section>
-
-	<section>
-		<h2>Server-side image compression</h2>
-	</section>
-
-	<section>
-		<h2>Responsive grid based on <a href="//github.com/dhg/Skeleton/">Skeleton</a></h2>
-	</section>
-
-	<section>
-		<h2>Basic <a href="//ogp.me">OpenGraph</a> integration</h2>
-	</section>
-
-	<section>
-		<h2><a href="//livereload.com">LiveReload</a> built in</h2>
-	</section>-->
-
 </article>
 <?php include "./includes/footer.php"; ?>
