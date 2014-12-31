@@ -55,12 +55,20 @@ $fonts = array('Muli', 'Raleway');</code></pre>
 		</div>
 	</section>
 
-	<!--<section>
-		<h2>CDN libraries with local fallbacks</h2>
-	</section>
-
 	<section>
-		<h2>Responsive grid based on <a href="//github.com/dhg/Skeleton/">Skeleton</a></h2>
+		<div class="row">
+			<div class="six columns">
+				<h2><a href="//livereload.com">LiveReload</a> built in</h2>
+				<p>Automatically included in development environments only, LiveReload is a tool that watches a project folder for changes and reloads the page when needed. To use, just install the application - the relevant JavaScript is included in Metalplate already.</p>
+			</div>
+			<div class="six columns">
+				<h2>CDN libraries with local fallbacks</h2>
+				<p>Save the file into <code>includes/external</code> to automatically pick up the files from CDN or the local copy depending on if you're in a production or development environment.</p>
+				<p>To reference jQuery Mobile for example, use:
+				<pre><code>&lt;?php echo externalFile('ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/', 'jquery.mobile.min.js')</code></pre></p>
+				<p>Metalplate comes with <a href="//fortawesome.github.io/Font-Awesome/">Font Awesome</a>, <a href="//jquery.com">jQuery</a>, <a href="//modernizr.com/">Modernizr</a> and <a href="//necolas.github.io/normalize.css/">Normalize.css</a>.</p>
+			</div>
+		</div>
 	</section>
 
 	<section>
