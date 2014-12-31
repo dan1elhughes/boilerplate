@@ -11,6 +11,8 @@
 $feature-font: Raleway, sans-serif;
 $feature-color: rgba(102, 1, 152, 1);
 @import "metalplate/metalplate";</code></pre>
+				<pre><code>$productionURL = 'workshop.xes.io';
+$fonts = array('Muli', 'Raleway');</code></pre>
 			</div>
 		</div>
 	</section>
