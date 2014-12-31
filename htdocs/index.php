@@ -1,6 +1,22 @@
 <?php include "./includes/header.php"; ?>
 <article class="wrap">
 	<section>
+		<h2>Installation</h2>
+		<div class="row">
+			<div class="six columns">
+				<p>To start using Metalplate in your project, simply unpack into a new directory. You will then need to set some variables in <code>includes/styles.scss</code> to match your design, and <code>includes/header.php</code> to match your setup.</p>
+			</div>
+			<div class="six columns">
+				<pre><code>$body-font: Muli, sans-serif;
+$feature-font: Raleway, sans-serif;
+$feature-color: rgba(102, 1, 152, 1);
+@import "metalplate/metalplate";</code></pre>
+				<pre><code>$productionURL = 'workshop.xes.io';
+$fonts = array('Muli', 'Raleway');</code></pre>
+			</div>
+		</div>
+	</section>
+	<section>
 		<h2>Forms</h2>
 		<form action="#" method="post">
 			<div class="row">
@@ -132,5 +148,38 @@
 $feature-font: Raleway, sans-serif;</code></pre></p>
 			</div>
 	</section>
+	
+	<!--<section>
+		<h2>Git integration</h2>
+	</section>
+
+	<section>
+		<h2>Built-in Sass compilers</h2>
+	</section>
+
+	<section>
+		<h2>Server-side caching</h2>
+	</section>
+
+	<section>
+		<h2>CDN libraries with local fallbacks</h2>
+	</section>
+
+	<section>
+		<h2>Server-side image compression</h2>
+	</section>
+
+	<section>
+		<h2>Responsive grid based on <a href="//github.com/dhg/Skeleton/">Skeleton</a></h2>
+	</section>
+
+	<section>
+		<h2>Basic <a href="//ogp.me">OpenGraph</a> integration</h2>
+	</section>
+
+	<section>
+		<h2><a href="//livereload.com">LiveReload</a> built in</h2>
+	</section>-->
+
 </article>
 <?php include "./includes/footer.php"; ?>

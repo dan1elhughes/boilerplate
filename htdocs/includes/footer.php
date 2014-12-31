@@ -3,7 +3,7 @@
 		<div class='wrap'>
 			<div class="row">
 				<div class="twelve columns align-center">
-					<a class="fontsize-huge twelve columns" href="https://github.com/dan1elhughes/boilerplate.git"><i class="fa fa-github"></i></a>
+					<a class="fontsize-huge twelve columns" href="//github.com/dan1elhughes/boilerplate.git"><i class="fa fa-github"></i></a>
 				</div>
 			</div>
 		</div>
@@ -43,7 +43,7 @@ else {
 	$pageTitle = NULL;
 }
 // Replace <!--VARS--> with $pageVars contents
-$output = str_replace('<!--TITLE-->', "Boilerplate" . $pageTitle, $output);
+$output = str_replace('<!--TITLE-->', $siteName . $pageTitle, $output);
 $output = str_replace('<!--IMAGE-->', $pageImage, $output);
 $output = str_replace('<!--DESCRIPTION-->', $pageDescription, $output);
 $output = str_replace('<!--CACHE-->', '<!-- Cached file - built at ' . date('H:i:s', time()) . ' -->', $output);
