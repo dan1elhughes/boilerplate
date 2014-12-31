@@ -30,6 +30,17 @@ $fonts = array('Muli', 'Raleway');</code></pre>
 	</section>
 
 	<section>
+		<div class="row">
+			<div class="six columns">
+				<h2>Git integration</h2>
+				<p>If you keep your project in Git, you can point a post-receive hook on your central repository at <code>yourdomain.com/git/</code>. Whenever you hit that URL, the latest version of the master branch will be pulled to the server.</p>
+			</div>
+			<div class="six columns">
+				<h2>Server-side caching</h2>
+				<p>By default, all pages are cached and served from cache automatically. To disable on confidential pages, set <code>$disableCache = true</code> on that page.</p>
+			</div>
+		</div>
+	</section>
 		<h2>Forms</h2>
 		<form action="#" method="post">
 			<div class="row">
