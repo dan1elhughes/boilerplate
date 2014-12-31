@@ -60,6 +60,14 @@ a:hover {
 	color: rgba($feature-color, 0.5);
 }
 
+a img {
+	@include transition(opacity 0.25s);
+}
+
+a img:hover {
+	opacity: 0.75;
+}
+
 /* =====================================*/
 /*			CONTENT						*/
 /* =====================================*/
