@@ -70,14 +70,24 @@ $fonts = array('Muli', 'Raleway');</code></pre>
 			</div>
 		</div>
 	</section>
-
+	
 	<section>
-		<h2>Basic <a href="//ogp.me">OpenGraph</a> integration</h2>
+		<div class="row">
+			<div class="six columns">
+				<h2>Responsive grid based on <a href="//github.com/dhg/Skeleton/">Skeleton</a></h2>
+				<p>Metalplate comes with a modified version of Skeleton, which is a base boilerplate responsive grid. The standard Skeleton installation has been split into multiple partials for ease of updating and modification.</p>
+				<p>Many additional styles have been added, such as Sass mixins, utility classes and variables for easy customisation.</p>
+			</div>
+			<div class="six columns">
+				<h2><a href="//ogp.me">OpenGraph</a> integration</h2>
+				<p>OpenGraph is a way to tell social networks more about your website. To use OpenGraph, there are PHP variables built-in to insert OpenGraph meta tags. Giving a page title results in the title being appended to the site name, separated by a <code>|</code>.</p>
+				<pre><code>$pageTitle = 'Latest News';
+$pageImage = 'news.jpg';
+$pageDescription = 'The latest from an awesome project';</code></pre>
+			</div>
+		</div>
 	</section>
-
-	<section>
-		<h2><a href="//livereload.com">LiveReload</a> built in</h2>
-	</section>-->
+	
 	<section>
 		<h2>Forms</h2>
 		<form action="#" method="post">
