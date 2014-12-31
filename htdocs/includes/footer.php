@@ -43,7 +43,7 @@ else {
 	$pageTitle = NULL;
 }
 // Replace <!--VARS--> with $pageVars contents
-$output = str_replace('<!--TITLE-->', "Boilerplate" . $pageTitle, $output);
+$output = str_replace('<!--TITLE-->', $siteName . $pageTitle, $output);
 $output = str_replace('<!--IMAGE-->', $pageImage, $output);
 $output = str_replace('<!--DESCRIPTION-->', $pageDescription, $output);
 $output = str_replace('<!--CACHE-->', '<!-- Cached file - built at ' . date('H:i:s', time()) . ' -->', $output);

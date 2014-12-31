@@ -2,6 +2,7 @@
 
 $productionURL = 'workshop.xes.io'; //Your domain
 $fonts = array('Muli', 'Raleway');
+$siteName = 'Metalplate';
 
 //If running on local machine, use devmode settings (don't cache, use local rather than CDN files)
 $devMode = ($_SERVER['HTTP_HOST'] != $productionURL);
