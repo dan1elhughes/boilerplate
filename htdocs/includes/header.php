@@ -20,7 +20,7 @@ if ($devMode) {
 	$stylesheet=$rootpath.'includes/style.dev.php/style.scss?reset=1';
 }
 else {
-	$rootpath='/boilerplate/';
+	$rootpath='/metalplate/';
 	$stylesheet=$rootpath.'includes/style.php/style.scss';
 }
 
