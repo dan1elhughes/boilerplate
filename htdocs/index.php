@@ -42,12 +42,21 @@ $fonts = array('Muli', 'Raleway');</code></pre>
 		</div>
 	</section>
 
-	<!--<section>
-		<h2>CDN libraries with local fallbacks</h2>
-	</section>
-
 	<section>
 		<h2>Server-side image compression</h2>
+		<div class="row">
+			<div class="six columns">
+				<p>Metalplate includes <a href="http://www.binarymoon.co.uk/projects/timthumb/">TimThumb</a> to automate image compression. This means any size of image can be uploaded (within PHP memory limits) and displayed at a reasonable size on page load. This functionality is wrapped in a PHP function for ease of use.</p>
+			</div>
+			<div class="six columns">
+				<pre><code>&lt;?php echo thumb('image.jpg', 300)?&gt;
+<i>//300 = width of image in pixels</i></code></pre>
+			</div>
+		</div>
+	</section>
+
+	<!--<section>
+		<h2>CDN libraries with local fallbacks</h2>
 	</section>
 
 	<section>
