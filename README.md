@@ -22,4 +22,4 @@ It's designed to quick-start a new project or client website, without having to 
 - Variable URLs to allow installation to a subdirectory
 
 ##Demo
-http://workshop.xes.io/boilerplate
+http://workshop.xes.io/metalplate/
