@@ -2,9 +2,14 @@
 /*			METALPLATE SETTINGS			*/
 /* =====================================*/
 
-$body-font:				Muli, sans-serif;
-$feature-font:			Raleway, sans-serif;
 $feature-color:			rgba(102, 1, 152, 1);
+
+$body-google-font:		Muli;
+$body-font:				$body-google-font, sans-serif;
+
+$feature-google-font:	Raleway;
+$feature-font:			$feature-google-font, sans-serif;
+
 @import "metalplate/metalplate";
 
 /* =====================================*/
