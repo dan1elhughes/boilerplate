@@ -1,7 +1,7 @@
-#XES Boilerplate
+#Metalplate
 
 ##Overview
-XES Boilerplate is a collection of tools combined with a rough CSS framework that has grown up over time.
+Metalplate is a collection of tools combined with a rough CSS framework that has grown up over time.
 It's designed to quick-start a new project or client website, without having to rewrite common code.
 
 ##Features
