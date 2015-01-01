@@ -4,15 +4,20 @@
 		<h2>Installation</h2>
 		<div class="row">
 			<div class="six columns">
-				<p>To start using Metalplate in your project, simply unpack into a new directory. You will then need to set some variables in <code>includes/styles.scss</code> to match your design, and <code>includes/header.php</code> to match your setup.</p>
+				<p>To start using Metalplate in your project, simply unpack into a new directory. You will then need to set some variables in <code>sass/metalplate/_settings.scss</code> to match your design, and <code>includes/header.php</code> to match your particular setup.</p>
 			</div>
 			<div class="six columns">
-				<pre><code>$body-font: Muli, sans-serif;
+				<pre><code><i>//_settings.scss</i>
+@include load-font('Source+Sans+Pro');
+$body-font: Source Sans Pro, sans-serif;
+
+@include load-font('Raleway');
 $feature-font: Raleway, sans-serif;
-$feature-color: rgba(102, 1, 152, 1);
-@import "metalplate/metalplate";</code></pre>
-				<pre><code>$productionURL = 'workshop.xes.io';
-$fonts = array('Muli', 'Raleway');</code></pre>
+
+$feature-color: rgba(102, 1, 152, 1);</code></pre>
+				<pre><code><i>//header.php</i>
+$productionURL = 'workshop.xes.io';
+$siteName = 'Metalplate';</code></pre>
 			</div>
 		</div>
 	</section>
@@ -144,6 +149,10 @@ $pageDescription = 'The latest from an awesome project';</code></pre>
 	<section class="pad-top pad-bottom border-bottom">
 		<h2>Code</h2>
 		<div class="row">
+			<div class="six columns">
+				<p>To display code inside a webpage, wrap it with <code>&lt;code&gt;&lt;pre&gt;</code>.</p>
+				<p>Be sure to replace <code>&lt;</code> and <code>&gt;</code> with <code><i>&amp;lt;</i></code> and <code><i>&amp;gt;</i></code>.</p>
+			</div>
 			<pre class="six columns"><code>.fontsize-tiny { font-size: 12px }
 .fontsize-small { font-size: 14px }
 .fontsize-normal { font-size: 16px }
@@ -151,9 +160,6 @@ $pageDescription = 'The latest from an awesome project';</code></pre>
 .fontsize-xlarge { font-size: 28px }
 .fontsize-huge { font-size: 37px }
 .fontsize-xhuge { font-size: 50px }</code></pre>
-			<pre class="six columns"><code>.align-left { text-align: left; }
-.align-right { text-align: right; }
-.align-center { text-align: center; }</code></pre>
 		</div>
 	</section>
 
@@ -206,18 +212,15 @@ $pageDescription = 'The latest from an awesome project';</code></pre>
 	<section class="pad-top pad-bottom border-bottom">
 		<h2>Easy modification</h2>
 		<div class="row">
-			<div class="four columns">
+			<div class="six columns">
 				<p>Changing the boilerplate settings is as easy as changing PHP and Sass variables.</p>
-				<p>For example, take fonts; just change a PHP array and the corresponding Sass variables to change the Google Fonts being loaded.</p>
+				<p>For example, take fonts; just load as many Google fonts as you like with the built-in Sass mixin, then add them straight to your font stack.</p>
 			</div>
-			<div class="four columns">
-				<h3>PHP</h3>
-				<p><pre><code>$fonts = array('Oxygen', 'Raleway');</code></pre></p>
-			</div>
-			<div class="four columns">
-				<h3>Sass</h3>
-				<p><pre><code>$body-font: Oxygen, sans-serif;
-$feature-font: Raleway, sans-serif;</code></pre></p>
+			<div class="six columns">
+				<p><pre><code><i>//_settings.scss</i>
+@include load-font('Source+Sans+Pro');
+@include load-font('Muli');
+$body-font: Source Sans Pro, Muli, sans-serif;</code></pre></p>
 			</div>
 	</section>
 </article>
