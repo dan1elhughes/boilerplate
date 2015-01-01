@@ -155,9 +155,6 @@ $pageDescription = 'The latest from an awesome project';</code></pre>
 .fontsize-xlarge { font-size: 28px }
 .fontsize-huge { font-size: 37px }
 .fontsize-xhuge { font-size: 50px }</code></pre>
-			<pre class="six columns"><code>.align-left { text-align: left; }
-.align-right { text-align: right; }
-.align-center { text-align: center; }</code></pre>
 		</div>
 	</section>
 
