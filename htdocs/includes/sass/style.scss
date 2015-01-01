@@ -2,19 +2,6 @@
 /*			METALPLATE SETTINGS			*/
 /* =====================================*/
 
-/* Fonts */
-@import "metalplate/fontloader";
-
-@include 				load-font('Muli');
-$body-font:				Muli, sans-serif;
-
-@include 				load-font('Raleway');
-$feature-font:			Raleway, sans-serif;
-
-/* Feature colour */
-$feature-color:			rgba(102, 1, 152, 1);
-
-/* Main import of Metalplate */
 @import "metalplate/metalplate";
 
 /* =====================================*/

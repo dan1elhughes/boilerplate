@@ -101,7 +101,7 @@ function thumb($src, $width) {
 						</div>
 					</div>
 					<div class="row align-center">
-						<div class="six columns offset-by-three align-center fontsize-small">
+						<div class="six columns offset-by-three align-center">
 							<p>A collection of front-end utilities and back-end tools to reduce project start time.</p>
 							<p>Metalplate, made with love by <a href="//xes.io">XES</a>.</p>
 						</div>
