@@ -1,7 +1,7 @@
 @import "fontloader";
 
-@include 				load-font('Muli');
-$body-font:				Muli, sans-serif;
+@include 				load-font('Source+Sans+Pro');
+$body-font:				Source Sans Pro, sans-serif;
 
 @include 				load-font('Raleway');
 $feature-font:			Raleway, sans-serif;
