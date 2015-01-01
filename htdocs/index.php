@@ -144,6 +144,10 @@ $pageDescription = 'The latest from an awesome project';</code></pre>
 	<section class="pad-top pad-bottom border-bottom">
 		<h2>Code</h2>
 		<div class="row">
+			<div class="six columns">
+				<p>To display code inside a webpage, wrap it with <code>&lt;code&gt;&lt;pre&gt;</code>.</p>
+				<p>Be sure to replace <code>&lt;</code> and <code>&gt;</code> with <code><i>&amp;lt;</i></code> and <code><i>&amp;gt;</i></code>.</p>
+			</div>
 			<pre class="six columns"><code>.fontsize-tiny { font-size: 12px }
 .fontsize-small { font-size: 14px }
 .fontsize-normal { font-size: 16px }
