@@ -1,6 +1,6 @@
 <?php include "./includes/header.php"; ?>
 <article class="wrap">
-	<section>
+	<section class="pad-top pad-bottom border-bottom">
 		<h2>Installation</h2>
 		<div class="row">
 			<div class="six columns">
@@ -17,7 +17,7 @@ $fonts = array('Muli', 'Raleway');</code></pre>
 		</div>
 	</section>
 
-	<section>
+	<section class="pad-top pad-bottom border-bottom">
 		<h2>Built-in Sass compilers</h2>
 		<div class="row">
 			<div class="six columns">
@@ -29,7 +29,7 @@ $fonts = array('Muli', 'Raleway');</code></pre>
 		</div>
 	</section>
 
-	<section>
+	<section class="pad-top pad-bottom border-bottom">
 		<div class="row">
 			<div class="six columns">
 				<h2>Git integration</h2>
@@ -42,7 +42,7 @@ $fonts = array('Muli', 'Raleway');</code></pre>
 		</div>
 	</section>
 
-	<section>
+	<section class="pad-top pad-bottom border-bottom">
 		<h2>Server-side image compression</h2>
 		<div class="row">
 			<div class="six columns">
@@ -55,7 +55,7 @@ $fonts = array('Muli', 'Raleway');</code></pre>
 		</div>
 	</section>
 
-	<section>
+	<section class="pad-top pad-bottom border-bottom">
 		<div class="row">
 			<div class="six columns">
 				<h2><a href="//livereload.com">LiveReload</a> built in</h2>
@@ -71,7 +71,7 @@ $fonts = array('Muli', 'Raleway');</code></pre>
 		</div>
 	</section>
 	
-	<section>
+	<section class="pad-top pad-bottom border-bottom">
 		<div class="row">
 			<div class="six columns">
 				<h2>Responsive grid based on <a href="//github.com/dhg/Skeleton/">Skeleton</a></h2>
@@ -88,7 +88,7 @@ $pageDescription = 'The latest from an awesome project';</code></pre>
 		</div>
 	</section>
 	
-	<section>
+	<section class="pad-top pad-bottom border-bottom">
 		<h2>Forms</h2>
 		<form action="#" method="post">
 			<div class="row">
@@ -141,7 +141,7 @@ $pageDescription = 'The latest from an awesome project';</code></pre>
 		</form>
 	</section>
 
-	<section>
+	<section class="pad-top pad-bottom border-bottom">
 		<h2>Code</h2>
 		<div class="row">
 			<pre class="six columns"><code>.fontsize-tiny { font-size: 12px }
@@ -157,7 +157,7 @@ $pageDescription = 'The latest from an awesome project';</code></pre>
 		</div>
 	</section>
 
-	<section>
+	<section class="pad-top pad-bottom border-bottom">
 		<h2>Tables</h2>
 		<div class="row">
 			<table class="twelve columns">
@@ -189,7 +189,7 @@ $pageDescription = 'The latest from an awesome project';</code></pre>
 		</div>
 	</section>
 
-	<section>
+	<section class="pad-top pad-bottom border-bottom">
 		<h2>Utility classes</h2>
 		<ul>
 			<li><code>.fontsize-tiny</code> to <code>.fontsize-xhuge</code> sets font sizing from 12px to 50px</li>
@@ -203,7 +203,7 @@ $pageDescription = 'The latest from an awesome project';</code></pre>
 		</ul>
 	</section>
 	
-	<section>
+	<section class="pad-top pad-bottom border-bottom">
 		<h2>Easy modification</h2>
 		<div class="row">
 			<div class="four columns">
