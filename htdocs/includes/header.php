@@ -113,4 +113,4 @@ function thumb($src, $width) {
 					</div>
 				</div>
 			</header>
-			<div id="content"> <!-- Begin page content -->
+			<div id="content" class="pad-bottom"> <!-- Begin page content -->
