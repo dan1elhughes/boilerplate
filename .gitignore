@@ -1,4 +1,4 @@
 db.php
 *.timthumb.txt
-*.css
-*.css.imports
+**/scss_cache/*/*.css
+**/scss_cache/*/*.css.imports
