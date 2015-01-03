@@ -11,6 +11,10 @@
 	@include transition(width 0.25s, padding 0.25s);
 }
 
+.wrap.small {
+    max-width: $site-width/3 * 2;
+}
+
 .column,        
 .columns { 
 	width: 100%; 
