@@ -29,7 +29,7 @@
 	//ga('create','UA-XXXXX-X','auto');ga('send','pageview');
 </script>
 <?php } ?>
-</body> 
+</body>
 </html>
 <?php
 

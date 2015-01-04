@@ -75,7 +75,7 @@ $siteName = 'Metalplate';</code></pre>
 			</div>
 		</div>
 	</section>
-	
+
 	<section class="pad-top pad-bottom border-bottom">
 		<div class="row">
 			<div class="six columns">
@@ -92,13 +92,13 @@ $pageDescription = 'The latest from an awesome project';</code></pre>
 			</div>
 		</div>
 	</section>
-	
+
 	<section class="pad-top pad-bottom border-bottom">
 		<h2>Forms</h2>
 		<form action="#" method="post">
 			<div class="row">
 				<div class="four columns">
-					<label for="name">Name</label> 
+					<label for="name">Name</label>
 					<input type="name" id="name" name="name">
 				</div>
 				<div class="eight columns">
@@ -136,7 +136,7 @@ $pageDescription = 'The latest from an awesome project';</code></pre>
 				<label for="blank">Please leave blank:</label>
 				<input type="text" id="blank" name="blank">
 			</div>
-			
+
 			<div class="row">
 				<div class="twelve columns align-center fontsize-small">
 					<button type="submit">Normal button</button>
@@ -208,7 +208,7 @@ $pageDescription = 'The latest from an awesome project';</code></pre>
 			<li><code>.border-bottom</code> for a quick line underneath an element</li>
 		</ul>
 	</section>
-	
+
 	<section class="pad-top pad-bottom border-bottom">
 		<h2>Easy modification</h2>
 		<div class="row">
