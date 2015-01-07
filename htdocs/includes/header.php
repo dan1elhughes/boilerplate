@@ -1,6 +1,6 @@
 <?php
 
-$productionURL = 'workshop.xes.io'; //Your domain
+$productionURL = 'metalplate.io'; //Your domain
 $siteName = 'Metalplate';
 
 //Display all errors and warnings
@@ -22,9 +22,10 @@ if ($devMode) {
 	$stylesheet=$rootpath.'includes/style.dev.php/style.scss?reset=1';
 }
 
-//Detect if running in staging environment (workshop.xes.io/gravitygym)
+//Detect if running in staging environment (workshop.xes.io/metalplate/)
 $stagingMode = (strpos($filepath,'workshop') !== false);
 if ($stagingMode) {
+	$devMode = false;
 	$rootpath='/metalplate/';
 	$stylesheet=$rootpath.'includes/style.php/style.scss';
 }
@@ -32,8 +33,8 @@ if ($stagingMode) {
 //Start caching
 if (!$devMode) {
 	$cache_time = 5; // Time in seconds to keep a page cached
-	$cache_folder = $filepath.$rootpath.'includes/cache'; // Folder to store cached files (no trailing slash)
-	$cache_filename = $cache_folder.md5($_SERVER['REQUEST_URI']).'html'; // Location to lookup or store cached file
+	$cache_folder = $filepath.$rootpath.'includes/cache/'; // Folder to store cached files (no trailing slash)
+	$cache_filename = $cache_folder.md5($_SERVER['REQUEST_URI']).'.html'; // Location to lookup or store cached file
 	$cache_created  = (file_exists($cache_filename)) ? filemtime($cache_filename) : 0; //Check to see if this file has already been cached, if it has then get and store the file creation time
 
 	if ((time() - $cache_created) < $cache_time) {
