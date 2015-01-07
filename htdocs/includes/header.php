@@ -1,6 +1,6 @@
 <?php
 
-$productionURL = 'workshop.xes.io'; //Your domain
+$productionURL = 'metalplate.io'; //Your domain
 $siteName = 'Metalplate';
 
 //Display all errors and warnings
@@ -22,9 +22,10 @@ if ($devMode) {
 	$stylesheet=$rootpath.'includes/style.dev.php/style.scss?reset=1';
 }
 
-//Detect if running in staging environment (workshop.xes.io/gravitygym)
+//Detect if running in staging environment (workshop.xes.io/metalplate/)
 $stagingMode = (strpos($filepath,'workshop') !== false);
 if ($stagingMode) {
+	$devMode = false;
 	$rootpath='/metalplate/';
 	$stylesheet=$rootpath.'includes/style.php/style.scss';
 }
