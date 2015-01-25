@@ -12,14 +12,14 @@ $filepath = $_SERVER['DOCUMENT_ROOT'];
 
 //Assume production environment, tweak otherwise
 $rootpath='/';
-$stylesheet=$rootpath.'includes/style.php/style.scss';
+$stylesheet=$rootpath.'includes/style.php?p=style.scss';
 
 //If running on local machine, use devmode settings (don't cache, use local rather than CDN files)
 //Detect if running in production (gravitygym.me)
 $devMode = ($_SERVER['HTTP_HOST'] != $productionURL);
 if ($devMode) {
 	$rootpath='/';
-	$stylesheet=$rootpath.'includes/style.dev.php/style.scss?reset=1';
+	$stylesheet=$rootpath.'includes/style.dev.php?p=style.scss&reset=1';
 }
 
 //Detect if running in staging environment (workshop.xes.io/metalplate/)
@@ -27,7 +27,7 @@ $stagingMode = (strpos($filepath,'workshop') !== false);
 if ($stagingMode) {
 	$devMode = false;
 	$rootpath='/metalplate/';
-	$stylesheet=$rootpath.'includes/style.php/style.scss';
+	$stylesheet=$rootpath.'includes/style.php?p=style.scss';
 }
 
 //Start caching
