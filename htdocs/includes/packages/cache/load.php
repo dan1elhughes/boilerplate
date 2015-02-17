@@ -1,6 +1,6 @@
 <?php
 	require('cache.php');
-	$cache = new Cache($_SERVER['DOCUMENT_ROOT'].$rootpath.'includes/cache/cache/');
+	$cache = new Cache($_SERVER['DOCUMENT_ROOT'].$rootpath.'includes/packages/cache/cache/');
 	$cache->setSuffix('.cache.html');
 	$cache->setTimeout(5);
 
