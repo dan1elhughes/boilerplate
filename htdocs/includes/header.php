@@ -47,6 +47,7 @@ function thumb($src, $width) {
 	return $rootpath."images/thumb/&#63;w=$width&amp;src=$src";
 }
 
+require($_SERVER['DOCUMENT_ROOT'].$rootpath.'includes/packages/metalplate/load.php');
 require($_SERVER['DOCUMENT_ROOT'].$rootpath.'includes/packages/cache/load.php');
 
 ?>
