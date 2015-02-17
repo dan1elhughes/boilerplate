@@ -49,6 +49,7 @@ function thumb($src, $width) {
 
 require($_SERVER['DOCUMENT_ROOT'].$rootpath.'includes/packages/metalplate/load.php');
 require($_SERVER['DOCUMENT_ROOT'].$rootpath.'includes/packages/cache/load.php');
+$cache->setEnabled(!$devMode);
 
 ?>
 <!DOCTYPE html>
