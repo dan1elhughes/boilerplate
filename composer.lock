@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "13247538c0e71bfab590a7199e9fa31b",
+    "hash": "5dcc5af20c7e5a8b235aa7f074b7ab41",
     "packages": [
         {
             "name": "xes/cacher",

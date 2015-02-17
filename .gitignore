@@ -14,4 +14,3 @@ db.php
 
 #Downloaded Composer git repositories
 composer.phar
-**/.git/
