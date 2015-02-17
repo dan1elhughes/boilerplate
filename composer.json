@@ -1,0 +1,9 @@
+{
+    "require": {
+        "xes/templater": "dev-master",
+        "xes/cacher": "dev-master"
+    },
+   "config": {
+        "vendor-dir": "htdocs/includes/packages"
+    }
+}

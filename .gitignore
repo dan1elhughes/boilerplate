@@ -11,3 +11,7 @@ db.php
 **/scss_cache/*/*.css
 **/scss_cache/*/*.css.imports
 **/cache/*.html
+
+#Downloaded Composer git repositories
+composer.phar
+**/.git/
