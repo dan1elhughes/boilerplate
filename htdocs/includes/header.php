@@ -49,7 +49,7 @@ function thumb($src, $width) {
 
 require('packages/autoload.php');
 
-$cache = new xes\Cacher($_SERVER['DOCUMENT_ROOT'].'/'.$rootpath.'includes/cache/', !$devMode);
+$cache = new xes\Cacher($_SERVER['DOCUMENT_ROOT'].$rootpath.'includes/cache/', !$devMode);
 $cache->start();
 
 $templater = new xes\Templater($_SERVER['DOCUMENT_ROOT'].$rootpath.'includes/templates/');
